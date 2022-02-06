@@ -1,13 +1,15 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Perpetua', 'Arial Narrow Bold', sans-serif;
-}
-
 html {
     color: #E6E6EA;
     background-color: #f4a2a2;
 }
+
+body {
+    color: seagreen;
+    font-family: 'Perpetua', 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 
 
 .header {
@@ -41,6 +43,8 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  margin: auto;
   width: 80%;
 }
 
