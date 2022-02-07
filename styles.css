@@ -1,6 +1,10 @@
 html {
     color: #E6E6EA;
     background-color: #f4a2a2;
+    box-sizing: border-box
+}
+*, *:before, *:after {
+  box-sizing: inherit
 }
 
 body {
@@ -52,7 +56,6 @@ a:hover {
 .bookmark-container {
 	display: flex;
 	flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-evenly;
 	width: 60%;
   margin: 1em 1em;
@@ -69,9 +72,8 @@ a:hover {
 	padding: 1.5em;
 	background-color: #272727;
 	border-radius: 3px;
-	/* font-family: "Roboto Mono"; */
 	font-size: .85rem;
-	width: auto;
+	width: 50%;
 	height: auto;
 	margin: 0.5em .5em;
 }
@@ -82,7 +84,6 @@ a:hover {
   white-space: nowrap;
   top: 0px;
   left: 0px;
-  /* height: 90%; */
   margin: 1em;
 }
 
