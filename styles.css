@@ -35,7 +35,7 @@ a {
     color: inherit;
     text-decoration: none;
     margin: 0.5em;
-    font-size: 1em;
+    font-size: .85em;
 }
 
 a:focus,
@@ -52,13 +52,18 @@ a:hover {
   width: 100%;
 }
 
+.bookmark {
+  text-decoration: none;
+  display: block;
+  margin: .5em 0em;
+}
+
 
 .bookmark-container {
 	display: flex;
 	flex-direction: row;
-  flex-wrap: nowrap;
   justify-content: center;
-	width: 60%;
+	margin: 1em 0em;
 }
 
 .header {
@@ -79,9 +84,16 @@ a:hover {
 	background-color: #03312E;
 	border-radius: 3px;
 	font-size: .85rem;
-	width: auto;
-	height: auto;
+	width: 12em;
+	height: 12em;
 	margin: 0.5em .5em;
+}
+
+.bookmark-inner-container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 75%;
 }
 
 .bookmark-title {
