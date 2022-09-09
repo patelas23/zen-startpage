@@ -9,7 +9,7 @@ html {
 
 
 body {
-  font-family: 'Perpetua', 'Arial Narrow Bold', sans-serif;
+  font-family: 'Arial', 'Arial Narrow Bold', sans-serif;
   font-size: 100%;
   margin: 0;
   padding: 0;
@@ -83,19 +83,18 @@ a:hover {
 	padding: 1.5em;
 	background-color: #03312E;
 	border-radius: 3px;
-	font-size: .85rem;
+	font-size: 1em;
 	width: 12em;
 	height: auto;
 	margin: 0.5em .5em;
 }
 
 .bookmark-inner-container {
-  overflow-y: scroll;
-  height: 75%;
+  height: 80%;
 }
 
 .bookmark-title {
-  font-size: 1.5 em;
+  font-size: 1.5em;
   font-weight: 700;
   color: #FF4B3E;
 }
