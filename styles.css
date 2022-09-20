@@ -1,6 +1,6 @@
 html {
-    color: #E5DCC5;
-    background-color: #abb490;
+    color: #F7F4F3;
+    background-color: #BFB1C1;
     box-sizing: border-box
 }
 *, *:before, *:after {
@@ -16,7 +16,7 @@ body {
 }
 
 h1, h2, h3 {
-  color: #582707;
+  color: #D72638;
 }
 
 h1{
@@ -40,11 +40,11 @@ a {
 
 a:focus,
 a:hover {
-    color: #41bed4
+    color: #BFB1C1
 }
 li:first-child {
   font-weight: bold;
-  color: #C96480;
+  color: #7F9172;
   line-height: 2em;
 }
 
@@ -54,7 +54,7 @@ position: relative;
 }
 
 form input[type="search"] {
-background-color: rgba(255, 255, 255, 0.95);
+background-color: #F7F4F3;
 border: none;
 box-sizing: border-box;
 font-weight: bold;
@@ -110,7 +110,7 @@ opacity: 0;
 .bookmark-title {
   font-size: 1.5em;
   font-weight: 700;
-  color: #FF4B3E;
+  color: #D72638;
 }
 
 .header {
