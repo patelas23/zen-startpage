@@ -1,6 +1,6 @@
 html {
     color: #E5DCC5;
-    background-color: #E5DCC5;
+    background-color: #abb490;
     box-sizing: border-box
 }
 *, *:before, *:after {
@@ -35,35 +35,82 @@ a {
     color: inherit;
     text-decoration: none;
     margin: 0.5em;
-    font-size: .85em;
+    font-size: 1em;
 }
 
 a:focus,
 a:hover {
     color: #41bed4
 }
+li:first-child {
+  font-weight: bold;
+  color: #C96480;
+  line-height: 2em;
+}
+
+form {
+margin: 1em;
+position: relative;
+}
+
+form input[type="search"] {
+background-color: rgba(255, 255, 255, 0.95);
+border: none;
+box-sizing: border-box;
+font-weight: bold;
+font: inherit;
+width: 100%;
+}
+
+form label {
+color: #1d81b2;
+left: -1em;
+position: absolute;
+}
+
+form:focus-within input::placeholder {
+opacity: 0;
+}
+
 
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin: auto; */
+  margin: auto;
   width: 100%;
 }
 
 .bookmark {
   text-decoration: none;
   display: block;
-  margin: .5em 0em;
+  margin: 0.5em 0em;
 }
-
-
 .bookmark-container {
 	display: flex;
 	flex-direction: row;
   justify-content: center;
 	margin: 1em 0em;
+}
+.bookmark-category {
+  display: flex;
+  flex-direction: column;
+	padding: 1.5em;
+	background-color: #03312E;
+	border-radius: 3px;
+	font-size: 1em;
+	width: 12em;
+	height: auto;
+	margin: 0.5em .5em;
+}
+.bookmark-inner-container {
+  height: 80%;
+}
+.bookmark-title {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #FF4B3E;
 }
 
 .header {
@@ -77,27 +124,7 @@ a:hover {
 
 }
 
-.bookmark-category {
-  display: flex;
-  flex-direction: column;
-	padding: 1.5em;
-	background-color: #03312E;
-	border-radius: 3px;
-	font-size: 1em;
-	width: 12em;
-	height: auto;
-	margin: 0.5em .5em;
-}
 
-.bookmark-inner-container {
-  height: 80%;
-}
-
-.bookmark-title {
-  font-size: 1.5em;
-  font-weight: 700;
-  color: #FF4B3E;
-}
 
 .category {
   float: left;
@@ -108,33 +135,4 @@ a:hover {
   margin: 1em;
 }
 
-li:first-child {
-    font-weight: bold;
-    color: #C96480;
-    line-height: 2em;
-}
-
-form {
-  margin: 1em;
-  position: relative;
-}
-
-form input[type="search"] {
-  background-color: rgba(255, 255, 255, 0.95);
-  border: none;
-  box-sizing: border-box;
-  font-weight: bold;
-  font: inherit;
-  width: 100%;
-}
-
-form label {
-  color: #1d81b2;
-  left: -1em;
-  position: absolute;
-}
-
-form:focus-within input::placeholder {
-  opacity: 0;
-}
 
